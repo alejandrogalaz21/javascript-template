@@ -1,2 +1,8 @@
-import "./styles.css";
-console.log("hello world!");
+import './styles.css'
+
+import { isEmpty } from './utils/helpers'
+
+const arr = []
+
+console.log('hello world!')
+console.log('is empty ', isEmpty(arr))
